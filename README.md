@@ -1,6 +1,6 @@
-## This is your RLRA Agent to help you!
+### Your RLRA Agent to help you!
 
-To start, follow the steps to setup Ollama. 
+To start, follow the steps to setup the environment and Ollama. 
 Then to setup the base and start asking questions:
 
 ```
@@ -12,13 +12,14 @@ Then tell the type of other information, you are looking for :
 1 - Code 
 2 - Method 
 3 - Results 
-4 - Methodlogy
+4 - Methodology
 
 
-### Setup OLLAMA 
+### Setup Environment and OLLAMA 
 
 
 ```
+    conda env create -f environment.yml
     curl -fsSL https://ollama.com/install.sh | sh
     ollama serve
     ollama pull llama3.1

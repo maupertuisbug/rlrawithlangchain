@@ -33,8 +33,8 @@ class MainRagAgent:
 
     def create_faiss_vs(self):
         splitter = RecursiveCharacterTextSplitter(
-                        chunk_size=500,
-                        chunk_overlap=100,
+                        chunk_size=1000,
+                        chunk_overlap=10,
                         separators=["\n\n", "\n", " ", ""]
                     )
         pdf_files = [os.path.join(self.folder_path, f) for f in os.listdir(self.folder_path) if f.endswith(".pdf")]
