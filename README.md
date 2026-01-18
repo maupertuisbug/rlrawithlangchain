@@ -40,3 +40,9 @@ Then tell the type of other information, you are looking for :
 1. Compare the results with individual paper retrieval. Get 5 results and compare the answers.
 2. Compare results with different prompts.
 3. Use Cloud-based VS called only when change in the knowledge base is detected.
+
+### Learning Objectives 
+
+1. When to choose RAG over Semantic Search over VS?
+2. Is combined knowledge base also better?
+3. How to pick the right index for the vector store?
