@@ -3,9 +3,9 @@
 To start, follow the steps to setup Ollama. 
 Then to setup the base and start asking questions:
 
-'''
+```
 python run.py
-'''
+```
 
 Tell the agent to what you are looking for by giving the title or content. 
 Then tell the type of other information, you are looking for :
@@ -18,11 +18,11 @@ Then tell the type of other information, you are looking for :
 ### Setup OLLAMA 
 
 
-'''
+```
     curl -fsSL https://ollama.com/install.sh | sh
     ollama serve
     ollama pull llama3.1
-'''
+```
 
 
 ### Current Knowledge Base include the following papers :
