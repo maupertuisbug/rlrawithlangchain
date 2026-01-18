@@ -1,4 +1,5 @@
 from rag import MainRagAgent 
+from rag_with_pinecone import MainRagAgentwithPinecone
 from langchain_core.documents import Document
 import numpy as np
 from langchain_core.documents import Document
@@ -12,7 +13,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 class RLRA:
     def __init__(self):
-        self.agent = MainRagAgent()
+        self.agent = MainRagAgentwithPinecone("papers-to-everything")
         self.final_content  = []
 
     def initial_base(self):
