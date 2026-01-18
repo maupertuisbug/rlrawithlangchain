@@ -70,10 +70,10 @@ class MainRagAgent:
             retriever=self.retriever_text,
             return_source_documents=False
         )
-        query_string_for_summary = ". Provide a concise summary of the paper with this title. Do not use more than 100 words. Give a single paragraph."
-        query_string_for_method = ". Provide the methodology used in the paper with this title. Do not use more than 100 words."
-        query_string_for_results = ". What are the main theoritical results of the paper with this title. Give only the main 3 theorems."
-        query_string_for_emp = ". Provide the performance with empirical results. Describe the baselines used to compare."
+        query_string_for_summary = ". Provide a concise summary of the paper with this title. Give Results only from one paper. Do not use more than 100 words. Give a single paragraph."
+        query_string_for_method = ". Provide the methodology used in the paper with this title. Give Results only from one paper. Do not use more than 100 words."
+        query_string_for_results = ". What are the main theoritical results of the paper with this title. Give Results only from one paper. Give only the main 3 theorems."
+        query_string_for_emp = ". Provide the performance with empirical results. Give Results only from one paper. Describe the baselines used to compare."
         return_c = []
         for t in self.titles:
             query_string_used = "Title is -" + str(t) + query_string_for_summary

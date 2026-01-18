@@ -33,3 +33,10 @@ Then tell the type of other information, you are looking for :
 3. Offline Reinforcement Learning with Implicit Q-Learning
 4. Does Zero-Shot Reinforcement Learning Exist?
 5. Reinforcement Learning with Prototypical Representations
+
+
+### To Do:
+
+1. Compare the results with individual paper retrieval. Get 5 results and compare the answers.
+2. Compare results with different prompts.
+3. Use Cloud-based VS called only when change in the knowledge base is detected.
