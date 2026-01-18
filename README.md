@@ -1,14 +1,14 @@
 ### Your RLRA Agent to help you!
 
 To start, follow the steps to setup the environment and Ollama. 
-Then to setup the base and start asking questions:
+To setup the base and start asking questions:
 
 ```
 python run.py
 ```
 
 Tell the agent to what you are looking for by giving the title or content. 
-Then tell the type of other information, you are looking for :
+Tell the type of other information, you are looking for :
 1 - Code 
 2 - Method 
 3 - Results 
@@ -44,5 +44,5 @@ Then tell the type of other information, you are looking for :
 ### Learning Objectives 
 
 1. When to choose RAG over Semantic Search with VS?
-2. Is combined knowledge base also better?
+2. Is combined knowledge base always better?
 3. How to pick the right index for the vector store?
